@@ -1,0 +1,59 @@
+.contact {
+    width: 100%;
+    height: 100vh;
+    background: #25274D
+}
+
+a {
+    color: #e6edf3de;
+    text-decoration: none;
+}
+
+
+.inputs {
+    width: 60%;
+    height: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+        color: #e6edf3de;
+    }
+
+    input {
+        width: 100%;
+        align-items: center;
+        padding: 20px;
+        margin-block: .5rem;
+        outline: none;
+        border: none;
+    }
+
+    .message {
+        padding-bottom: 10rem;
+    }
+
+        button {
+            padding: 10px 40px;
+            background: none;
+            cursor: pointer;
+            margin-top: 1rem;
+            border: 1px solid #e6edf3de;
+            color: #e6edf3de;
+            text-transform: uppercase;
+        }
+}
+
+@media (max-width:550px) {
+    .inputs {
+        width: 80%;
+
+
+        input {
+            padding: 15px;
+        }
+    }
+}
